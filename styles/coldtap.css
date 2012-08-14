@@ -68,7 +68,8 @@ td { vertical-align: top; }
 
 body { font-family: Calibri, Verdana, Sans-Serif; background-color: #ded5e2; color: #29003f;}
 blockquote {font-style: italic; color: #666;}
-header {height: 32px; background: #6e0ba1 url(/images/coldtap-header-logo.png) no-repeat left;}
+header {height: 32px; background-color: #6e0ba1;}
+.coldtap-logo {display:block; background: transparent url(/images/coldtap-header-logo.png) no-repeat left; width: 149px; height: 0px; padding-top: 32px; overflow:hidden;}
 .content {padding: 0 1em;}
 
 
