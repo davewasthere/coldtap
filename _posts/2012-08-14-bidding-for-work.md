@@ -1,5 +1,7 @@
 ---
-
+layout: default
+title: Bidding for work
+description: For the first time in four years I've gone out and bid for some work. It's been a novel experience.
 published: true
 ---
 
