@@ -2,7 +2,7 @@
 layout: default
 title: Frustrations with Microsoft
 description: Trying to renew my Microsoft Action Pack (or enrol into BizSpark) has been a right pain in the arse
-published: false
+published: true
 ---
 
 Maybe Microsoft don't want me developing with their tools?
