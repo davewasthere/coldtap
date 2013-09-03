@@ -1,0 +1,4 @@
+permalink:  /posts/:title
+auto:       true
+prose:
+  rooturl: ''
