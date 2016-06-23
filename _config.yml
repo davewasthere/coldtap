@@ -1,4 +1,3 @@
-permalink:  /posts/:title
-auto:       true
-prose:
-  rooturl: ''
+timezone: Europe/London
+permalink: date
+encoding: utf-8
