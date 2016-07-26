@@ -4,12 +4,12 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-    <loc>https://www.coldtap.co.uk/</loc>
+    <loc>https://www.coldtap.net/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 </url>
 {% for post in site.posts %}
  <url>
-    <loc>https://www.coldtap.co.uk{{ post.url }}/</loc>
+    <loc>https://www.coldtap.net{{ post.url }}/</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
  </url>
  {% endfor %}
