@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <meta name="description" content="Company Website for Coldtap Limited. .Net software development and consultancy.">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Company Website for Coldtap Limited. .Net software development and consultancy.{% endif %}">
     <meta name="author" content="Dave Beer">
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -50,7 +50,8 @@
 
     <footer>
         <div class="container-fluid">
-            <div>Coldtap Limited (Est 2008) Registered in England and Wales #6632696 VAT #936264313 Registered Address: Litton House, Saville Road, Peterborough, PE3 7PR</div>
+            <div>Coldtap Limited UK (Est 2008) Registered in England and Wales #6632696 VAT #936264313 Registered Address: Litton House, Saville Road, Peterborough, PE3 7PR</div>
+            <div>Coldtap (Australia) ABN: 34883769939</div>
         </div>
     </footer>
 
