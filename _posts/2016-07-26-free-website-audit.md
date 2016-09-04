@@ -3,9 +3,10 @@ layout: post
 title: Free website audit
 ---
 
-Have you got a website that isn't performing? Not getting either the search hits, or referrals that you want from it? Then 
+Have you got a website that isn't performing? Not getting either the search hits, or referrals that you want from it? Then: 
 
 <!-- Begin MailChimp Signup Form -->
+
 <div id="mc_embed_signup" class="well bs-component col-lg-8">
 <form action="//davewasthere.us12.list-manage.com/subscribe/post?u=8f23d63181255cbe5a6ad353f&amp;id=f5f3a36971" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-horizontal" target="_blank" novalidate>
 <fieldset>

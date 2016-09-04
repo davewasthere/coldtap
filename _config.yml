@@ -1,3 +1,5 @@
 timezone: Europe/London
 permalink: date
 encoding: utf-8
+gems:
+  - jekyll-sitemap
