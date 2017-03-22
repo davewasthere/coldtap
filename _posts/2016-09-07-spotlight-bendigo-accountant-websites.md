@@ -139,4 +139,4 @@ A great spotlight to start with, seeing as it's Tax time for a lot of people. Th
 
 ## The Not so good:
 
-Coming soon...
+EDIT: 22/03/2017 - [It's here! The not-so-good](/2017/03/21/spotlight-bendigo-accountant-websites-part-2.html)
