@@ -15,3 +15,7 @@ footer {
     padding-top: 1em;
     color: #ccc;
 }
+
+.next {
+    text-align: right;
+}
