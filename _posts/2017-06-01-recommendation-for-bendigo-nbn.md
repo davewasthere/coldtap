@@ -26,6 +26,9 @@ I ended up going with TPG initially, which was a bit of a research fail, because
 
 Another thing I love about MyRepublic, is they don't try and sell you some bullshit speed package that your line may, or may not support. Whatever your line can do, that's what you'll get. All the other providers are pretty much just scamming you in a similar manner to Starbucks with their coffee sizes. These third tier providers will be the real disrupters.
 
+![And finally, MyRepublic](http://beta.speedtest.net/result/6417770682.png)  
+**Seems like slightly worse ping, but perhaps a better modem?**
+
 I love how Bill Morrow (CEO of NBN) says that Aussies don't want fast speeds. I think by that, he's saying that the average grandma doesn't see the point and would be happy with 12 Meg down. That's probably true. But local companies have found it faster to drive a USB stick to Melbourne, than to upload their large assets using the best connection we've had available, so it does cripple business. And my ADSL2+ connection struggled with basic video calling, which isn't really that bandwidth intensive. And there was no way I could stream a high-quality feed if I wanted to demonstrate something to a client.
 
 So, bottom line, there are great options out there for internet connectivity now in Bendigo, if you're lucky enough to be in the areas that they've deployed. But I'd definitely recommend shopping around for a package that suits your needs.
