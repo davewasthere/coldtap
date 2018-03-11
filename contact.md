@@ -1,6 +1,7 @@
 ---
 layout: layout
 title: Contact Us
+permalink: /contact
 ---
 
 # Contact

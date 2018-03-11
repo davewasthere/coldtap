@@ -1,6 +1,7 @@
 ---
 layout: layout
 title: About Us
+permalink: /about
 ---
 
 # About
