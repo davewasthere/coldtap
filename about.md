@@ -6,6 +6,24 @@ permalink: /about
 
 # About
 
-We're primarily a .Net consultancy building web applications using the Microsoft .Net stack.
+Coldtap is primarily a .Net consultancy building web-based applications using the Microsoft .Net stack.
 
-That said, if you want a clean, fast brochure-ware website, we're happy to help you out with that too. The main thing is to not waste money building something you don't need.
+Currently based out of Bendigo Australia, supporting clients in multiple countries. (United Kingdom, United Arab Emirates, New Zealand, Australia and The Cook Islands)
+
+Expertise in the following domains:
+
+* Aviation
+* Education
+* Information Security
+* Finance
+* Loss Adjustment
+* Task Management Systems
+* Asset Management Information Systesm
+* Responsive Web Development
+* Marketing
+* Hospitality Events (Ticketing Management)
+
+Happy to give independent advice and recommendations about anything web-application or software development related.
+
+
+
