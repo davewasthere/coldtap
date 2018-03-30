@@ -1,0 +1,19 @@
+---
+layout: page
+title: "Coldtap - Blog Index"
+description: "List of articles"
+---
+
+    <div class="content">
+
+        <h1>Blog</h1>
+
+        <div class="related">
+                {% for post in site.posts | sort: "date" | reverse %}
+                <div>
+                    <span>{{ post.date | date: "%d %B %Y" }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+                </div>
+                {% endfor %}
+        </div>
+
+    </div>

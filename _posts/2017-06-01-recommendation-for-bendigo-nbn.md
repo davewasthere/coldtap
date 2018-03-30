@@ -33,7 +33,7 @@ I love how Bill Morrow (CEO of NBN) says that Aussies don't want fast speeds. I 
 
 So, bottom line, there are great options out there for internet connectivity now in Bendigo, if you're lucky enough to be in the areas that they've deployed. But I'd definitely recommend shopping around for a package that suits your needs.
 
-
+Still, New Zealand is the place to be if you want internet done correctly!
 
 
 

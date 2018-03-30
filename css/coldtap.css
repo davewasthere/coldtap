@@ -19,3 +19,17 @@ footer {
 .next {
     text-align: right;
 }
+
+#homepage-hero {
+    background-color: #360c60;
+    color: #ccc;
+    min-height: 200px;
+}
+
+#homepage-hero h1 {
+    color: #fff;
+}
+
+.related > div {
+    margin-bottom: 0.5em;
+}

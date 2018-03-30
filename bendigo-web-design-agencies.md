@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: page
 title: Bendigo Web Design Agencies
 ---
 

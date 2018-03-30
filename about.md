@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: page
 title: About Us
 permalink: /about
 ---
@@ -24,6 +24,5 @@ Expertise in the following domains:
 * Hospitality Events (Ticketing Management)
 
 Happy to give independent advice and recommendations about anything web-application or software development related.
-
 
 
