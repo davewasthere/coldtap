@@ -8,7 +8,7 @@ permalink: /about
 
 Coldtap is primarily a .Net consultancy building web-based applications using the Microsoft .Net stack.
 
-Currently based out of Bendigo Australia, supporting clients in multiple countries. (United Kingdom, United Arab Emirates, New Zealand, Australia and The Cook Islands)
+Currently based out of Bendigo Australia, supporting clients in multiple countries. (United Kingdom, United Arab Emirates, New Zealand and Australia)
 
 Expertise in the following domains:
 
