@@ -3,9 +3,10 @@ title: Terms & Conditions
 layout: page
 permalink: /terms-and-conditions
 ---
-# Welcome to our website. 
 
-If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern {{ site.company_name }}'s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.
+# Terms &amp; Conditions
+
+Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern {{ site.company_name }}'s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.
 
 The term '{{ site.company_name }}' or 'us' or 'we' refers to the owner of the website whose registered office is {{ site.company_address }}. Our company registration number is {{ site.company_registration_details }}. The term 'you' refers to the user or viewer of our website.
 

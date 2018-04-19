@@ -71,12 +71,30 @@
         </div>
     </nav>
 
+    <div class="navbar navbar-fixed-bottom">
+        <div class="container-fluid container-max-width">
+            <div id="cookie-consent" class="alert alert-info alert-dismissable" role="alert" style="display: none;">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <a href="#" class="alert-link">Obligatory Cookie warning here...</a>
+            </div>
+        </div>
+    </div>
+
     {{ content }}
 
     <footer>
         <div class="container-fluid container-max-width">
             <div class="row">
-                <a class="btn btn-link" href="/terms-and-conditions">Terms &amp; Conditions</a> | <a class="btn btn-link">Privacy Policy</a> | <a class="btn btn-link">GDPR</a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/terms-and-conditions">Terms &amp; Conditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/privacy-policy">Privacy Policy</a>
+                    </li>
+                </ul>
+
             </div>
         </div>
         <div>
@@ -103,7 +121,49 @@
             $('.nav a[href^="/' + path + '"]').parent().addClass('active');
         }
 
+        var cookie = readCookie('cookie-consent');
+
+        if(cookie === null)
+        {
+            $('#cookie-consent').show();
+        }
+
+
+        $('#cookie-consent').on('closed.bs.alert', function () {
+            createCookie('cookie-consent', true, 180);
+        })
+
     });
+
+    function createCookie(name, value, days) {
+        var expires;
+
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        } else {
+            expires = "";
+        }
+        document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = encodeURIComponent(name) + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ')
+                c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0)
+                return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
 
     </script>
 

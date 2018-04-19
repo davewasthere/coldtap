@@ -25,13 +25,3 @@ Expertise in the following domains:
 * Hospitality Events (Ticketing Management)
 
 Happy to give independent advice and recommendations about anything web-application or software development related.
-
----
-
-## Coldtap Limited
-
-Registered in England and Wales #6632696
-
-Registered Address: Suite 5, 4 Blenheim Court, Peppercorn Close, Peterborough, PE1 2DU
-
-
