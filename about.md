@@ -8,7 +8,7 @@ permalink: /about
 
 Coldtap is primarily a .Net consultancy building web-based applications using the Microsoft .Net stack.
 
-Currently based out of Bendigo Australia, supporting clients in multiple countries. (United Kingdom, United Arab Emirates, New Zealand and Australia)
+Our clients are primarily based in the United Kingdom, New Zealand and Australia.
 
 Expertise in the following domains:
 
@@ -19,10 +19,19 @@ Expertise in the following domains:
 * Loss Adjustment
 * Task Management Systems
 * Asset Management Information Systesm
+* Government
 * Responsive Web Development
 * Marketing
 * Hospitality Events (Ticketing Management)
 
 Happy to give independent advice and recommendations about anything web-application or software development related.
+
+---
+
+## Coldtap Limited
+
+Registered in England and Wales #6632696
+
+Registered Address: Suite 5, 4 Blenheim Court, Peppercorn Close, Peterborough, PE1 2DU
 
 

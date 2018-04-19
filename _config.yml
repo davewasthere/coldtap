@@ -1,6 +1,7 @@
 timezone: Europe/London
 permalink: date
 encoding: utf-8
+company_name: Coldtap
 url: "https://coldtap.net"
 plugins:
   - jekyll-sitemap
