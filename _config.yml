@@ -1,6 +1,7 @@
 timezone: Europe/London
 permalink: date
 encoding: utf-8
+company_email: contact@coldtap.net
 company_name: Coldtap
 company_address: "Suite 5, 4 Blenheim Court, Peppercorn Close, Peterborough, PE1 2DU"
 company_registration_details: "Registered in England and Wales #6632696"
