@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trickier Stuff
+published: false
 ---
 
 ## More Advanced SEO (Search Engine Optimisation)
