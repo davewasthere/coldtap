@@ -71,15 +71,6 @@
         </div>
     </nav>
 
-    <div class="navbar navbar-fixed-bottom">
-        <div class="container-fluid container-max-width">
-            <div id="cookie-consent" class="alert alert-info alert-dismissable" role="alert" style="display: none;">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <p>We use Google Analytics, which stores a few cookies on your computer. If this sucks, please erase the cookies and leave this site. We'll keep any other cookies to the absolute bare minimum.</p>
-            </div>
-        </div>
-    </div>
-
     {{ content }}
 
     <footer>
@@ -103,6 +94,19 @@
         <div class="container-fluid container-max-width">
             <div>&copy; {{ site.time | date: '%Y' }} - Coldtap Limited UK (Est 2008)</div>
         </div>
+    
+        <!-- <div style="background-color: #eee;">
+        <div class="container-fluid container-max-width"> -->
+            <div id="cookie-consent" class="alert alert-cookie" role="alert" style="display: none; margin-top: 21px;">
+                <div class="container-fluid container-max-width">
+                    <p>This site sometimes uses cookies. Mostly for analytics and authentication. View <a href="/privacy-policy">Privacy Policy</a> for more details.</p>
+                    <ul class="cookie-details"></ul>
+                    <p><button id="delete-cookies" type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete cookies and leave</button> <button id="accept-cookies" type="button" class="btn btn-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Accept</button></p>
+                </div>
+            </div>
+        <!-- </div>
+    </div> -->
+
     </footer>
 
 
@@ -128,10 +132,34 @@
             $('#cookie-consent').show();
         }
 
+        if(cookie === null || window.location.pathname === '/privacy-policy')
+        {
+            var cookies = listCookies();
+            if(cookies.length > 0)
+            {
+                $('.cookie-details').html('<li>' + cookies.split('\n').join('</li><li>') + '</li>');
+            }
+            else{
+                $('.cookie-details').html('<li>There are no cookies currently in use.</li>');
+            }
+        }
 
         $('#cookie-consent').on('closed.bs.alert', function () {
             createCookie('cookie-consent', true, 180);
         })
+
+        $('#accept-cookies').click(function(){
+            createCookie('cookie-consent', true, 180);
+            $('#cookie-consent').hide();
+        });
+
+        $('#delete-cookies').click(function(){
+            var cookies = listCookies().split('\n');
+            for (var i = 1 ; i <= cookies.length; i++) {
+                eraseCookie(cookies[i-1]);
+            }
+            window.location = "https://www.google.com";
+        });
 
     });
 
@@ -159,6 +187,15 @@
                 return decodeURIComponent(c.substring(nameEQ.length, c.length));
         }
         return null;
+    }
+
+    function listCookies() {
+        var cookies = document.cookie.split(';');
+        var result = '';
+        for (var i = 1 ; i <= cookies.length; i++) {
+            result += cookies[i-1].split('=')[0] + "\n";
+        }
+        return result.trim();
     }
 
     function eraseCookie(name) {

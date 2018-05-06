@@ -45,3 +45,19 @@ footer {
 .related > div {
     margin-bottom: 0.5em;
 }
+
+.alert-cookie{
+    margin-bottom: 0;
+    background-color: #222; 
+    color: #eee;
+    border-radius: 0;   
+}
+
+.alert-cookie .close{
+    color: #eee;
+    opacity: 0.8;
+}
+
+.alert-cookie .close:hover{
+    opacity: 0.5;
+}
